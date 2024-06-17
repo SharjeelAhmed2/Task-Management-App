@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  padding-right: 22px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #07090a;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* .details-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+} */
+
+.details-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.details-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-container label {
+  margin-bottom: 10px;
+}
+
+.details-container input[type="text"] {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.details-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-container button:hover {
+  background-color: #0056b3;
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.priorityL {
+  font-weight: bold;
+}
+
+/* Style the select dropdown */
+.priority {
+  padding: 8px 12px; /* Add padding for better readability */
+  font-size: 16px; /* Set font size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Add border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  appearance: none; /* Remove default appearance */
+  background-color: #fff; /* Set background color */
+  cursor: pointer; /* Add pointer cursor */
+}
+
+/* Style the options */
+option {
+  padding: 8px 12px; /* Add padding */
+  font-size: 16px; /* Set font size */
+}
+
+.container_viewTask {
+  margin: auto;
+  border: 4px green;
+  padding: 20px 20px 20px 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(255, 33, 33, 0.2), 0 6px 20px 0 rgba(180, 21, 21, 0.753);
+  flex-direction: column;
+  width: 250px;
+  margin-top: 30px;
+  height: auto;
+  text-align: center;
+  }
+
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
